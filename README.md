@@ -52,7 +52,14 @@ The goal is to design, train, analyze, and compare two families of machine learn
   - Activation **tanh**: (10,8,6), (10,8,4), (6,4)  
   - Activation **relu**: (10,8,6), (10,8,4), (6,4)  
 - Keep the **two best-performing models per activation function**
-
 ### 3. Model Analysis
 - Manually compute metrics (without external libraries):  
-  - Accur
+  - Accuracy, Precision, Recall, F1-score (per class)  
+- Build confusion matrices  
+- Compare performances  
+
+### 4. Model Selection
+- Choose the best model based on performance and interpretability  
+- Discuss potential applications (e.g., medical diagnosis, anomaly detection)  
+
+---
