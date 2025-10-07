@@ -1,6 +1,6 @@
 # 🧠 AI Project - Comparing Machine Learning Models
 
-## 🎓 Context
+##  Context
 This project was carried out as part of the **Bachelor’s in Mathematics & Computer Science** (University of Strasbourg), course **Artificial Intelligence**.  
 The goal is to design, train, analyze, and compare two families of machine learning models:  
 - **Decision Trees**  
@@ -18,7 +18,7 @@ The goal is to design, train, analyze, and compare two families of machine learn
 
 ---
 
-## ✅ Learning Objectives
+##  Learning Objectives
 - Prepare and analyze a synthetic dataset  
 - Implement decision trees and artificial neural networks  
 - Apply techniques such as:  
@@ -33,19 +33,19 @@ The goal is to design, train, analyze, and compare two families of machine learn
 
 ---
 
-## 🔎 Project Workflow
+##  Project Workflow
 ### 1. Data Preparation
 - Split dataset into **80% training / 20% testing**  
 - Encoding and normalization if required  
 - Check linear separability of the data  
 
 ### 2. Model Implementation
-#### 🌳 Decision Trees
+####  Decision Trees
 - Partitioning with **quartiles**  
 - Training trees with depths from 3 to 8  
 - Keep the **two best-performing models**
 
-#### 🧠 Neural Networks
+####  Neural Networks
 - Validation set (15% of training) for **early stopping** (patience=4)  
 - Training with mini-batches of size 4  
 - Tested architectures:  
